@@ -58,5 +58,6 @@ def get_bot_response():
     else:
         return str("Wrong input.")
 
+
 if __name__ == "__main__":
     botApp.run()

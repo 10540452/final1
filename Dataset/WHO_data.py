@@ -7,7 +7,7 @@ s_lang = "en"
 lang_changed_text = "Language changed!"
 
 
-data = [
+dataset = [
     """Get information and guidance from WHO regarding the current outbreak of coronavirus disease (COVID-19).
 
     What would you like to know about coronavirus?

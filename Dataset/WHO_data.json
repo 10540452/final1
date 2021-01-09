@@ -654,8 +654,8 @@
             "Answer": "CDC recommends that patients with SARS receive the same treatment that would be used for a patient with any serious community-acquired atypical pneumonia. SARS-CoV is being tested against various antiviral drugs to see if an effective treatment can be found."
         },
         {
-            "Context": "Treatment for SARS?",
-            "Answer": "CDC recommends that patients with SARS receive the same treatment that would be used for a patient with any serious community-acquired atypical pneumonia. SARS-CoV is being tested against various antiviral drugs to see if an effective treatment can be found."
+            "Context": "?",
+            "Answer": ""
         },
         {
             "Context": "?",

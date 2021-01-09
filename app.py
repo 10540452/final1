@@ -48,8 +48,8 @@ def get_bot_response():
         #     # return init_speech_recogition()
         #     utils.chatbot_enabled = True
         #     return translate("Hi, ask any question relate to Covid. For Quiting this chatbot Enter 'Quit'")
-        elif (int(user_text) <= len(dataset.data)) and (int(user_text) > -1):
-            return translate(str(utils.remove_breakline(dataset.data[int(user_text)])))
+        elif (int(user_text) <= len(dataset.dataset)) and (int(user_text) > -1):
+            return translate(str(utils.remove_breakline(dataset.dataset[int(user_text)])))
         else:
             return translate(str(utils.remove_breakline(dataset.wrong_input)))
     elif user_text.lower() in (name.lower() for name in dataset.languages):
